@@ -1,0 +1,9 @@
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Core.SQLite.dll
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Core.SQLite.pdb
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Core.SQLite.xml
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\ResolveAssemblyReference.cache
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\Zdevo.Core.SQLite.Resources.resources
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\Zdevo.Core.SQLite.vbproj.GenerateResource.Cache
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\Zdevo.Core.SQLite.dll
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\Zdevo.Core.SQLite.xml
+E:\Zdevo\Zdevo.Core.SQLite\obj\Debug\Zdevo.Core.SQLite.pdb

@@ -1,0 +1,10 @@
+..\Zdevo.Web\Bin\Zdevo.Switch.exe
+..\Zdevo.Web\Bin\Zdevo.Switch.pdb
+..\Zdevo.Web\Bin\Zdevo.App.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Zdevo.Switch.FormMain.resources
+obj\Debug\Zdevo.Switch.Resources.resources
+obj\Debug\Zdevo.Switch.vbproj.GenerateResource.Cache
+obj\Debug\Zdevo.Switch.exe
+obj\Debug\Zdevo.App.xml
+obj\Debug\Zdevo.Switch.pdb

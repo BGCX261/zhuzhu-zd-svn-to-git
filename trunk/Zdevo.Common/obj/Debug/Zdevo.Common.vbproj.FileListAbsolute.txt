@@ -1,0 +1,16 @@
+D:\Zdevo\Zdevo.Web\Bin\Zdevo.Common.dll
+D:\Zdevo\Zdevo.Web\Bin\Zdevo.Common.pdb
+D:\Zdevo\Zdevo.Web\Bin\Zdevo.Common.xml
+D:\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.Resources.resources
+D:\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.vbproj.GenerateResource.Cache
+D:\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.dll
+D:\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.xml
+D:\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.pdb
+D:\inetpub\Zdevo\Zdevo.Web\Bin\Zdevo.Common.dll
+D:\inetpub\Zdevo\Zdevo.Web\Bin\Zdevo.Common.pdb
+D:\inetpub\Zdevo\Zdevo.Web\Bin\Zdevo.Common.xml
+D:\inetpub\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.Resources.resources
+D:\inetpub\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.vbproj.GenerateResource.Cache
+D:\inetpub\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.dll
+D:\inetpub\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.xml
+D:\inetpub\Zdevo\Zdevo.Common\obj\Debug\Zdevo.Common.pdb

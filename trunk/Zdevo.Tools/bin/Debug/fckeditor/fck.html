@@ -1,0 +1,14 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<body style="padding:0;margin:0;">
+<script language="JavaScript" type="text/javascript" src="fckeditor.js"></script>
+<textarea style="display:none" rows="4"  name="txaContent" id="txaContent"></textarea>
+<input type="hidden" id="MyEditor___Config" value="Key1=Value1&Key2=Value2&... (Key/Value:HTML encoded)">
+<iframe id="MyEditor___Frame" src="editor/fckeditor.html?InstanceName=txaContent&Toolbar=Default" width="100%" height="400" frameborder="no" scrolling="no"></iframe>
+<script type="text/javascript">
+function FCKeditor_OnComplete(editorInstance) {
+   FCKeditorAPI.GetInstance('txaContent').Commands.GetCommand('FitWindow').Execute();
+}
+</script>
+
+</body>
+</html>

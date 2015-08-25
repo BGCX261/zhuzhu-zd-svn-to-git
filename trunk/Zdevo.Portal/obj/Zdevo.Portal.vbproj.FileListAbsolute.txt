@@ -1,0 +1,9 @@
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Portal.dll
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Portal.pdb
+E:\Zdevo\Zdevo.Web\Bin\Zdevo.Portal.xml
+E:\Zdevo\Zdevo.Portal\obj\Debug\ResolveAssemblyReference.cache
+E:\Zdevo\Zdevo.Portal\obj\Debug\Zdevo.Portal.Resources.resources
+E:\Zdevo\Zdevo.Portal\obj\Debug\Zdevo.Portal.vbproj.GenerateResource.Cache
+E:\Zdevo\Zdevo.Portal\obj\Debug\Zdevo.Portal.dll
+E:\Zdevo\Zdevo.Portal\obj\Debug\Zdevo.Portal.xml
+E:\Zdevo\Zdevo.Portal\obj\Debug\Zdevo.Portal.pdb

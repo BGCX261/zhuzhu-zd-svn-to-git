@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Zdevo.Page.Resources.resources
+obj\Debug\Zdevo.Page.vbproj.GenerateResource.Cache
+..\Zdevo.Web\Bin\Zdevo.Page.dll
+..\Zdevo.Web\Bin\Zdevo.Page.pdb
+..\Zdevo.Web\Bin\Zdevo.Page.xml
+obj\Debug\Zdevo.Page.dll
+obj\Debug\Zdevo.Page.xml
+obj\Debug\Zdevo.Page.pdb

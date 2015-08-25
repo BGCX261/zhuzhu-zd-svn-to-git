@@ -1,0 +1,15 @@
+bin\Debug\Zdevo.Template.dll
+bin\Debug\Zdevo.Template.pdb
+bin\Debug\Zdevo.Template.xml
+bin\Debug\Zdevo.Common.dll
+bin\Debug\Zdevo.Common.pdb
+bin\Debug\Zdevo.Common.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Zdevo.Template.Resources.resources
+obj\Debug\Zdevo.Template.vbproj.GenerateResource.Cache
+obj\Debug\Zdevo.Template.dll
+obj\Debug\Zdevo.Template.xml
+obj\Debug\Zdevo.Template.pdb
+..\Zdevo.Web\Bin\Zdevo.Template.dll
+..\Zdevo.Web\Bin\Zdevo.Template.pdb
+..\Zdevo.Web\Bin\Zdevo.Template.xml

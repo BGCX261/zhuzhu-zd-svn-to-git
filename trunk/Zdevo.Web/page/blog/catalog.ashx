@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Class="Zdevo.Page.Blog.Catalog" %>

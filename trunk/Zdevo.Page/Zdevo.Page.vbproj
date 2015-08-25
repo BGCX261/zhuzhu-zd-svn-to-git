@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D988FB0E-851D-4110-8846-FFF270B3F359}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Zdevo.Page</RootNamespace>
+    <AssemblyName>Zdevo.Page</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\Zdevo.Web\Bin\</OutputPath>
+    <DocumentationFile>Zdevo.Page.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>42020,42021,42022,42024,42025,42030,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Zdevo.Page.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>42020,42021,42022,42024,42025,42030,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Net" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Twitter\list.vb">
+    </Compile>
+    <Compile Include="Twitter\single.vb">
+    </Compile>
+    <Compile Include="BasePage.vb">
+    </Compile>
+    <Compile Include="Blog\list.vb">
+    </Compile>
+    <Compile Include="Blog\single.vb">
+    </Compile>
+    <Compile Include="Blog\catalog.vb">
+    </Compile>
+    <Compile Include="Bookmark\list.vb">
+    </Compile>
+    <Compile Include="Bookmark\single.vb">
+    </Compile>
+    <Compile Include="Default\index.vb">
+    </Compile>
+    <Compile Include="Gallery\list.vb">
+    </Compile>
+    <Compile Include="Gallery\single.vb">
+    </Compile>
+    <Compile Include="Global\global.vb" />
+    <Compile Include="Guestbook\list.vb">
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="HtmlPage.vb">
+    </Compile>
+    <Compile Include="Rss\blog.vb">
+    </Compile>
+    <Compile Include="Rss\index.vb">
+    </Compile>
+    <Compile Include="Rss\sitemap.vb">
+    </Compile>
+    <Compile Include="Schedule\index.vb">
+    </Compile>
+    <Compile Include="XmlrpcPage.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\comment2page.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\comment.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\getcomment.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\delcomment.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\login.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\index.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\logout.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\rsd.vb">
+    </Compile>
+    <Compile Include="Xmlrpc\wlwmanifest.vb">
+    </Compile>
+    <Compile Include="Share\list.vb" />
+    <Compile Include="Share\single.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zdevo.Common\Zdevo.Common.vbproj">
+      <Project>{453D89FC-5F26-445C-8254-74D23E02686F}</Project>
+      <Name>Zdevo.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zdevo.Core.SQLite\Zdevo.Core.SQLite.vbproj">
+      <Project>{0281F049-2853-4B37-B733-0CAB673919D8}</Project>
+      <Name>Zdevo.Core.SQLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zdevo.Core\Zdevo.Core.vbproj">
+      <Project>{5F1E8CC7-C81D-41A0-B1B8-38361E747D75}</Project>
+      <Name>Zdevo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zdevo.Template\Zdevo.Template.vbproj">
+      <Project>{E33B71EA-3C99-4A3D-9F01-458A7257BAC8}</Project>
+      <Name>Zdevo.Template</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
